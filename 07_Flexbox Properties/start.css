@@ -16,7 +16,7 @@ body {
 
 #orange {
     order: 4;
-    width: 15rem;
+    flex: 0 0 25%;
 }
 
 #blue {
@@ -41,6 +41,9 @@ body {
         width: 100px;
     }
 
+    #orange {
+        width: 100px;
+    }
     #blue {
         width: 100px;
     }
