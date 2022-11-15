@@ -1,0 +1,47 @@
+body {
+    display: flex;
+}
+
+#yellow { 
+    order: 1;
+}
+
+#red {
+    order: 2;
+}
+
+#green {
+    order: 3;
+}
+
+#orange {
+    order: 4;
+    width: 15rem;
+}
+
+#blue {
+    order: 5;
+}
+
+@media (max-width: 768px) {
+    body {
+        flex-direction: column;
+        width: 20%;
+    }
+
+    #yellow {
+        width: 100px;
+    }
+
+    #red {
+        width: 100px;
+    }
+
+    #green {
+        width: 100px;
+    }
+
+    #blue {
+        width: 100px;
+    }
+}
