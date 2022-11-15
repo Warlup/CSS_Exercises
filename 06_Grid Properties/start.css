@@ -1,0 +1,34 @@
+body {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 200px 200px auto;
+}
+
+.greenBox {
+    grid-column: 1/4;
+}
+
+.yellowBox {
+    grid-column: 2/1;
+    grid-row: 2/4;
+}
+
+.redBox {
+    grid-column: 2/2;
+    grid-row: 2/4;
+}
+
+.blueBox {
+    grid-column: 3/3;
+    grid-row: 2/5;
+}
+
+.orangeBox {
+    grid-column: 1/3;
+    grid-row: 4/4;
+}
+
+ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
