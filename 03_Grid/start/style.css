@@ -1,0 +1,96 @@
+.grid-container {
+  width: 35vh;
+  height: 35vh;
+  
+}
+
+#display {
+  background-color: #585758e1;
+  color: rgb(255, 255, 255);
+  padding-right: 10px;
+  font-size: 32px;
+  text-align: right;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.calculator {
+  height: 250px;
+  display: grid;
+  grid-template-columns: repeat(4, 25%);
+  grid-template-rows: repeat(5, 25%);
+  grid-template-areas: 
+  "plus minus multiplier division"
+  "n7 n8 n9 equal"
+  "n4 n5 n6 equal"
+  "n1 n2 n3 equal"
+  "zero dott cancelOp equal";
+}
+
+button {
+  font-size: 22px;
+  border: 1px solid black;
+}
+
+button:hover {
+  background-color: azure;
+}
+
+#plus {
+  grid-area: plus;
+}
+
+#minus {
+  grid-area: minus;
+}
+
+#multiplier {
+  grid-area: multiplier;
+}
+
+#division {
+  grid-area: division;
+}
+
+#equal {
+  grid-area: equal;
+  background-color: salmon;
+}
+
+#n1 {
+  grid-area: n1;
+}
+#n2 {
+  grid-area: n2;
+}
+#n3 {
+  grid-area: n3;
+}
+#n4 {
+  grid-area: n4;
+}
+#n5 {
+  grid-area: n5;
+}
+#n6 {
+  grid-area: n6;
+}
+#n7 {
+  grid-area: n7;
+}
+#n8 {
+  grid-area: n8;
+}
+#n9 {
+  grid-area: n9;
+}
+
+#zero {
+  grid-area: zero;
+
+}
+#dott {
+  grid-area: dott;
+}
+#cancelOp {
+  grid-area: cancelOp;
+}
