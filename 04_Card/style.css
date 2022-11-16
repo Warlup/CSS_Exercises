@@ -7,12 +7,15 @@
     font-family: 'Roboto', sans-serif;
 }
 
-body, p, h1, a {
+body, a {
     margin: 10px;
     padding: 2px;
 }
 
+
 article {
+    display: flex;
+    flex-direction: column;
     border: 1px rgb(192, 192, 192) solid;
     border-radius: 5px;
     width: 300px;
@@ -25,10 +28,18 @@ article > img {
     border-top-right-radius: inherit;
 }
 
-.content > p {
+.items > p {
+    border-top: 1px gray solid;
+    padding: 10px;
+}
+
+.content > p, h1 {
     line-height: 22px;
+    margin: 10px;
+    padding: 2px;
 }
 
 .link {
     display: flex;
+    border-top: 1px gray solid ;
 }
