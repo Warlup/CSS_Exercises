@@ -5,6 +5,10 @@
     line-height: 15px;
 }
 
+p {
+    margin-left: 5px;
+    margin-bottom: 20px;
+}
 
 .card-container {
     display: flex;
@@ -35,14 +39,14 @@
     margin-top: 8px;
 }
 
-#cat-image {
-    width: 100%;
-    height: 250px;
-}
-
 time {
     color: white;
     font-size: smaller;
+}
+
+#cat-image {
+    width: 100%;
+    height: 250px;
 }
 
 .buttons {
@@ -60,11 +64,6 @@ time {
 #dots {
     width: 15%;
     margin-right: 5px;
-}
-
-p {
-    margin-left: 5px;
-    margin-bottom: 20px;
 }
 
 @media (max-width: 380px) {
